@@ -91,7 +91,7 @@ header {
   align-self: center;
 }
 
-.details{
+.details {
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -103,7 +103,7 @@ header {
   align-items: start;
 }
 
-.details-item-description{
+.details-item-description {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -127,13 +127,40 @@ header {
   line-height: 34px;
 }
 
-.details-item-description > a{
-  color: #2F2E41;
+.details-item-description > a {
+  color: #2f2e41;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: -1px;
-  background: #C5C2FF80;
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    white 60%,
+    rgba(197, 194, 255, 0.5) 60%,
+    rgba(197, 194, 255, 0.5) 100%
+  );
   padding: 0 5px 2px;
-  }
+}
+
+.test {
+  color: #2f2e41;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -1px;
+  padding: 0 5px 2px;
+}
+
+.test1 {
+  background: rgba(197, 194, 255, 0.5);
+  z-index: 1;
+  position: absolute;
+}
+
+.test2 {
+  position: relative;
+  width: 100px;
+}
